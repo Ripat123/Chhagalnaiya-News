@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NewsPortal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="menu_back" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/appbar_night</item>
+    </style>
+
+    <style name="news_back" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/appbar_night</item>
+    </style>
+
+    <style name="back" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="news" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/appbar_night</item>
+    </style>
+
+    <style name="top" parent="ThemeOverlay.AppCompat">
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="ThemeOverlay.NewsPortal.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+</resources>

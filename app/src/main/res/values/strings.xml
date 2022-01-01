@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chhagalnaiya News</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Section</string>
+    <string name="title_notifications">Search</string>
+    <string name="title_myapp">My App</string>
+    <string name="show_more">Show more</string>
+    <string name="search_here">Search Here</string>
+    <string name="developed_by_sbit">Developed by SBIT</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version_1_0">Version - 1.5</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="facebook_app_id">466965534652120</string>
+    <string name="facebook_login_protocol_scheme">fb466965534652120</string>
+    <string name="share">Share :</string>
+</resources>
