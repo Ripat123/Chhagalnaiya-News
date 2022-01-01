@@ -46,6 +46,7 @@ public class privacy_policy extends AppCompatActivity {
 //
 //                startActivity(Intent.createChooser(share, "Share"));
                 onBackPressed();
+                finish();
             }
         });
     }
